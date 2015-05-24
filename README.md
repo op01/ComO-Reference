@@ -1,2 +1,10 @@
 # Competitive-Programming
-Reference for SKN Computer Olympiad Club
+การแข่งขันแก้ปัญหาโดยใช้ algorithm หรือ data structure
+
+```cpp
+#include<cstdio>
+int main()
+{
+    printf("Hello World");
+}
+```
