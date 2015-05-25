@@ -8,9 +8,9 @@ Basic
 
 | เรื่อง | เวลา |
 |-----|------|
-|[Introduction to Programming](https://github.com/op01/ComO-Reference/blob/master/Introduction/README.md)|&#9733;|
-|[Syntax](https://github.com/op01/ComO-Reference/blob/master/Introduction/syntax.md)|&#9733;|
-|Input/Output|&#9733;&#10026;|
+|[Introduction to Programming](Introduction/README.md)|&#9733;|
+|[Syntax](Introduction/syntax.md)|&#9733;|
+|[Input/Output](Introduction/input-output.md)|&#9733;&#10026;|
 |Variable|&#9733;&#10026;|
 |Decision|&#9733;&#9733;&#10026;&#10026;|
 |Loop|&#9733;&#9733;&#10026;&#10026;|
