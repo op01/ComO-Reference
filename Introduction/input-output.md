@@ -92,11 +92,13 @@ scanf
 ฟังชั่น scanf นั้นคล้ายกับ printf มาก โดยจะรับข้อมูลที่มีรูปแบบตามที่เรากำหนดนั้นเอง
 ```cpp
 int day,month,year;
-scanf("%d/%d/%d/",&day,&month,&year); // ลองใส่ 25/12/2015
+char name[20];
+scanf("%s %d/%d/%d",name,&day,&month,&year); // ลองใส่ sunee 25/12/2015
+printf("name:%s\n",name);
 printf("day:%d\n",day); // => 25
-printf("month:%d\n",month); => 12
-printf("year:%d\n",year); => 2015
+printf("month:%d\n",month); // => 12
+printf("year:%d\n",year); // => 2015
 ```
-> **Code 4** ตัวอย่างการใช้ printf รับค่า วัน/เดือน/ปี แล้วแสดงผล
+> **Code 4** ตัวอย่างการใช้ scanf รับค่า ชื่อ วัน/เดือน/ปี แล้วแสดงผล
 
 จะสังเกตว่า scanf จะต้องมี `&` อยู่หน้าตัวแปรที่จะรับค่าด้วย ยกเว้น `%s` ที่ไม่ต้อง
