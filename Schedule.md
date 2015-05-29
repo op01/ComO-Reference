@@ -11,8 +11,8 @@ Basic
 |[Introduction to Programming](Introduction/README.md)|&#9733;|
 |[Syntax](Introduction/syntax.md)|&#9733;|
 |[Input/Output](Introduction/input-output.md)|&#9733;&#10026;|
-|Variable|&#9733;&#10026;|
-|Decision|&#9733;&#9733;&#10026;&#10026;|
+|[Variable and Expression](Introduction/variable-expression.md)|&#9733;&#10026;|
+|[Decision](Introduction/decision.md)|&#9733;&#9733;&#10026;&#10026;|
 |Loop|&#9733;&#9733;&#10026;&#10026;|
 
 
