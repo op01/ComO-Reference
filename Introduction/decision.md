@@ -116,7 +116,7 @@ else if(a==3)
 {
 	printf("THREE");
 }
-...
+... เลขอื่นๆ ...
 else
 {
 	printf("I DONT KNOW THIS NUMBER !!! DONT TRY TO CHEAT !!!");
@@ -124,17 +124,21 @@ else
 ```
 เราอาจใช้ switch case แทนได้จะทำให้โค้ดอ่านง่ายขึ้นมาก
 ```cpp
-swtch(a)
+switch(a)
 {
-	case 1:printf("ONE");
-    	break;
-	case 2:printf("TWO");
-    	break;
-    case 3:printf("THREE");
-    	break;
-    ...
-    default : printf("I DONT KNOW THIS NUMBER !!! DONT TRY TO CHEAT !!!");
-    	break;
+	case 1:
+		printf("ONE");
+		break;
+	case 2:
+		printf("TWO");
+		break;
+	case 3:
+		printf("THREE");
+		break;
+	... เลขอื่นๆ ...
+	default : 
+		printf("I DONT KNOW THIS NUMBER !!! DONT TRY TO CHEAT !!!");
+		break;
     
 }
 ```
