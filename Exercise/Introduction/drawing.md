@@ -28,18 +28,17 @@ Output
 
 Example
 -------
-<table><thead style="font-weight:900;"><td>Input</td><td>Output</td></thead>
-<tr><td>(ไม่มี)</td><td>
-```
-----------
+
+<table><thead><td>Input</td><td>Output</td></thead>
+<tr>
+<td>(ไม่มี)</td>
+<td><br><pre><code>----------
 -OO-------
 -OO--TTTT-
 -----|TT|-
 --^--|TT|-
 -/+\-|TT|-
 -|+|-|TT|-
--|+|-|TT|-
-```
-</td>
+-|+|-|TT|-</code></pre></td>
 </tr>
 </table>
