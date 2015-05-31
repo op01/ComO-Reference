@@ -1,7 +1,7 @@
 Swap
 ====================
 Tags : `Input/Output` `Variable`<br>
-Difficulty : &#9733;&#9734;&#9734;&#9734;&#9734;<br>
+Difficulty : &#9733;&#9733;&#9734;&#9734;&#9734;&#9734;&#9734;&#9734;&#9734;&#9734;<br>
 Estimated time solve : 5 min<br>
 
 - - -
