@@ -1,4 +1,4 @@
-Hello ComO
+Drawing
 ====================
 Tags : `Input/Output`<br>
 Difficulty : &#9733;&#9734;&#9734;&#9734;&#9734;<br>
