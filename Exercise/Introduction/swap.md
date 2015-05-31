@@ -18,18 +18,18 @@ Output
 
 Example
 -------
-
 <table><thead><td>Input</td><td>Output</td></thead>
 <tr>
-<td><pre><code>5 8</code></pre></td>
-<td><pre><code>8 5</code></pre></td>
+<td>5 8</td>
+<td>8 5</td>
 </tr>
 <tr>
-<td><pre><code>99 50</code></pre></td>
-<td><pre><code>50 99</code></pre></td>
+<td>99 50</td>
+<td>50 99</td>
 </tr>
 <tr>
-<td><pre><code>0 100</code></pre></td>
-<td><pre><code>100 0</code></pre></td>
+<td>0 100</td>
+<td>100 0</td>
 </tr>
 </table>
+
