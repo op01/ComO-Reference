@@ -26,19 +26,19 @@ Output
 ------
 แสดงรูปจากโจทย์ผ่านทาง console
 
-Example
+Example Input
 -------
+**(ไม่มี)**
 
-<table><thead><td>Input</td><td>Output</td></thead>
-<tr>
-<td>(ไม่มี)</td>
-<td><br><pre><code>----------
+Example Output
+-------------
+```
+----------
 -OO-------
 -OO--TTTT-
 -----|TT|-
 --^--|TT|-
 -/+\-|TT|-
 -|+|-|TT|-
--|+|-|TT|-</code></pre></td>
-</tr>
-</table>
+-|+|-|TT|-
+```
