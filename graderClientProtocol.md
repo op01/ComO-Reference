@@ -216,5 +216,15 @@ Scoreboard - Security
 
 ปัญหา
 ----
-1. จะทำยังไง ให้เมื่อนำคำตอบ มารวมกับ `ENCRYPTED_PRIVATE_KEY` และจะได้เป็น `PRIVATE_KEY` ออกมา
+1. จะทำยังไง ให้เมื่อนำคำตอบ มารวมกับ `ENCRYPTED_PRIVATE_KEY` และจะได้เป็น `PRIVATE_KEY` ออกมา (UPD ข้างล่าง)
 2. ปลอดภัยจริงหรือไม่ (แต่จากระบบแล้ว ถ้าจะแฮกได้ ก็ต้อง brute-force RSA ซึ่งไม่ง่าย แต่ยังไม่รู้มีช่องโหว่อื่นอีกรึเปล่า)
+3. จริงๆตรง PROBLEM_ACCEPT ไม่จำเป็นก็ได้ เอาแค่ scoreboard encrypt key มาพอ และไปเช็คที่ scoreboard เลยว่า `decrypt(encrypt("SCOREBOARD_user1_prob1_SOLVED",scoreboard encrypt key), problem decrypt key) == "SCOREBOARD_user1_prob1_SOLVED"` รึเปล่า
+
+คำตอบ + ENCRYPTED_PRIVATE_KEY -> PRIVATE_KEY
+--------------------------------------------
+
+ถ้าคำตอบมันสั้น อาจทำให้ไม่ปลอดภัยเท่าไหร่
+
+คิดว่า เอาคำตอบ มาทำ checksum หลายๆแบบ และเอาคำตอบนี่ต่อท้ายไปด้วย กลายเป็น key ที่ยาวมากๆและ brute-force ไม่ได้ และเอาไปเข้ารหัส PRIVATE_KEY แบบ symmetric คือ key เดียวใช้ ไป-กลับ น่าจะโอเค แบบ ตอบ `Hello World` ก็ทำ checksum ซะหน่อย (อะไรก็ได้ให้ยาวๆ หลายๆอันต่อกันก็ได้) เป็น `0a4d55a8d778e5022fab701977c5d840bbc486d0Hello World` ก็เอาเป็น key ซะ ทำแบบนี้จะ brute-force key ได้ยาก
+
+ช่องโหว่ก็จะเหลือแค่การ brute-force คำตอบ ซึ่งยังไงซะต่อให้ใช้ server ก็กันไม่ได้ 555
