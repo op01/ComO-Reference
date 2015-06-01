@@ -235,5 +235,5 @@ Protocol flowchart
 
 Protocol v2 flowchart
 ---------------------
-หลังจากวาดรูป ถึงได้นึกขึ้นได้ว่า flag key ไม่จำเป็นเลย ปัญหาตอนนี้คือหาวิธี encrypt , decrypt A ที่เป็นแบบ symmetry และปลอดภัย
+หลังจากวาดรูป ถึงได้นึกขึ้นได้ว่า flag key ไม่จำเป็นเลย ปัญหาตอนนี้คือหาวิธี encrypt , decrypt A ที่เป็นแบบ symmetry และปลอดภัย (ใช้ AES ทำ symmetry , ใช้ SHA256 ทำคำตอบ , ใช้ RSA เข้ารหัส scoreboard)
 ![Image](graderProtocol2.png)
