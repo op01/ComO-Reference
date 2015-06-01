@@ -7,10 +7,10 @@ Protocol ที่จะใช้ google drive (หรือ file storage อื
 File structure
 ---------
 
-- ProblemKey เป็นไฟล์ที่เก็บ decryption key ของ problem ทุกๆ problem ไว้ [1 key ต่อ 1 problem] (read only)
-- ProblemTestcase เป็นไฟล์ที่เก็บ testcase และ key ของ problem ไว้ [1 problem 1 ไฟล์] (read only)
-- ProblemFlag เก็บ flag ของ problem ไว้ [1 problem 1 ไฟล์] (read only)
-- Scoreboard เก็บคะแนนของแต่ละ user ไว้ [1 user 1 ไฟล์] (สำหรับ user นั้นได้ read-write access , คนอื่นทุกคนได้ read only)
+- ProblemKey เป็นไฟล์ที่เก็บ decryption key ของ problem ทุกๆ problem ไว้ (1 key ต่อ 1 problem) (read only)
+- ProblemTestcase เป็นไฟล์ที่เก็บ testcase และ key ของ problem ไว้ (1 problem 1 ไฟล์) (read only)
+- ProblemFlag เก็บ flag ของ problem ไว้ (1 problem 1 ไฟล์) (read only)
+- Scoreboard เก็บคะแนนของแต่ละ user ไว้ (1 user 1 ไฟล์) (สำหรับ user นั้นได้ read-write access , คนอื่นทุกคนได้ read only)
 
 ProblemKey
 ----------
@@ -195,11 +195,14 @@ prob4 =>
 > scoreboard_user3.txt
 
 เมื่อเราทำแบบนี้เราจะรู้ได้เลยว่าใครที่ผ่านจริงๆ และใครที่ไม่ผ่าน เราก็มาสร้าง scoreboard บน client เราได้เลย
+
+
 User | Score
 -----|------
 user1|3
 user2|1
 user3|1
+
 
 Scoreboard - Security
 --------------------------
