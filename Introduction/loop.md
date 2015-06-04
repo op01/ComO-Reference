@@ -218,3 +218,16 @@ while(true)
     printf("You entered %d\n",X);
 }
 ```
+do while loop
+-------------
+คล้ายๆ while loop แต่จะเช็คเงื่อนไขหลังจากทำไปแล้ว 1 รอบ
+```cpp
+int x;
+do
+{
+	printf("Please enter number 1!!!!\n");
+	scanf("%d",&x);
+}
+while(x!=1)
+```
+จากตัวอย่าง while อันแรก เขียนแบบใช้ do while จะดีกว่าเพราะถ้าใช้ while แล้ว x เป็น 1 ตั้งแต่แรก จะไม่เข้าลูปเลย
