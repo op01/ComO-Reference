@@ -9,6 +9,9 @@ Linked List จะแบ่งแยกได้ 2 แบบ
 1. Singly Linked List เป็น Linked List แบบที่มี Pointer ชี้ไปด้านหน้าได้อย่างเดียว
 2. Doubly Linked List เป็น Linked List แบบที่มี Pointer ชี้ไปด้านหน้า และชี้กลับด้านหลัง
 
+![Singly Linked List](https://github.com/op01/ComO-Reference/blob/master/Data%20Structure/singly-linked-list.png)
+![Doubly Linked List](https://github.com/op01/ComO-Reference/blob/master/Data%20Structure/doubly-linked-list.png)
+
 แบ่งแยกตามการจบและไม่จบของข้อมูล
 
 1. Circular Linked List เป็น Linked List ที่เมื่อจบชุดข้อมูลแล้วจะชี้กลับมายังตัวตั้งต้น (หรือชี้วนกลับมาเป็นวงกลมนั่นเอง)
