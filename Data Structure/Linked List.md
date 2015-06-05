@@ -10,8 +10,11 @@ Linked List จะแบ่งแยกได้ 2 แบบ
 2. Doubly Linked List เป็น Linked List แบบที่มี Pointer ชี้ไปด้านหน้า และชี้กลับด้านหลัง
 
 ![Singly Linked List](https://github.com/op01/ComO-Reference/blob/master/Data%20Structure/Image/singly-linked-list.png)
+
 Singly Linked List
+
 ![Doubly Linked List](https://github.com/op01/ComO-Reference/blob/master/Data%20Structure/Image/doubly-linked-list.png)
+
 Doubly Linked List
 
 แบ่งแยกตามการจบและไม่จบของข้อมูล
@@ -20,6 +23,9 @@ Doubly Linked List
 2. Non-Circular Linked List เป็น Linked List ที่เมื่อจบชุดข้อมูลแล้วจะไม่ชี้กลับมายังตัวตั้งต้น
 
 ![Circular Linked List](https://github.com/op01/ComO-Reference/blob/master/Data%20Structure/Image/circular-linked-list.png)
+
 Circular Linked List
+
 ![Doubly Linked List](https://github.com/op01/ComO-Reference/blob/master/Data%20Structure/Image/non-circular-linked-list.png)
+
 Non-Circular Linked List
