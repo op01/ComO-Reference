@@ -68,7 +68,11 @@ free(ptr);
 
 Pointer and Array
 -----------------
-Array is pointer
+อาเรย์ที่เราเรียนมาแล้วนั้นที่จริงมันคือตัวแปร pointer นั้นเอง
+```cpp
+int *arr=(int*)malloc(sizeof(int)*n);
+arr[0]=1000007;
+```
 Pass by value vs Pass by pointer
 --------------------------------
 สมมติเราต้องการเขียนฟังชั่น swap โดยทำหน้าที่สลับข้อมูล 2 ตัว
