@@ -8,12 +8,13 @@ int update(int idx,int val)
 {
   for(;idx<=n;idx+=idx&-idx)tree[idx]+=val;
 }
-```
 int read(int idx)
 {
+  int ret=0;
   for(;idx;idx-=idx&-idx)ret+=tree[idx];
   return ret;
 }
+```
 Just remember and use it
 Compare
 -------
