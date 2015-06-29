@@ -25,6 +25,7 @@ Interface
 Submit answer
 -------
 ![Submit](grader_submit.png)
+
 สำหรับคำตอบนั้น เป็น output ของโปรแกรม จาก input ที่ให้ เช่น โปรแกรมบวกเลข ใส่ 5 3 เข้าไป คำตอบที่จะส่งคือ 8 โดย input จะเป็นไฟล์ให้ดาวน์โหลด และให้เราอัพโหลด output จากโปรแกรมเราขึ้นไป
 
 สำหรับการอ่าน input / output นั้น แนะนำให้ใช้ file redirection คือเขียนโปรแกรมใช้ scanf ตามปกติ และสั่งผ่าน cmd ให้ redirect เอา เช่น โปรแกรมชื่อ `prog.exe` , ไฟล์ input ชื่อ `input.in` ต้องการให้ออกมาเป็น `output.out` ก็ใช้ `prog.exe < input.in > output.out` และเวลาส่งก็ส่ง `output.out` ขึ้นไป
@@ -33,4 +34,5 @@ Verdict
 ------
 ![Correct](grader_correct.png)
 ![Incorrect](grader_incorrect.png)
+
 ผลการตรวจจะมี 2 อย่างคือ ถูก (Correct) และ ผิด (Incorrect) ซึ่งการผิดนั้นจะไม่บอกสาเหตุ เราต้องหาเองว่าเราเขียนผิดตรงไหนหรือเปล่า โปรแกรมติดบัคมั้ย โดนเคสดัก หรืออาจจะเรียง output ไม่ดี
