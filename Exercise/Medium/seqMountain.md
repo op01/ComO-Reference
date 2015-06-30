@@ -24,7 +24,7 @@ Estimated time solve : 15 min<br>
 
 Input
 -----
-บรรทัดแรกรับจำนวน testcase **T** (**T** <= 20)
+บรรทัดแรกรับจำนวน testcase **T** (**T** <= 5)
 
 แต่ละ testcase รับจำนวนเต็ม 1 ตัวคือ **N** 
 
